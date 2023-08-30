@@ -2,11 +2,13 @@ header {
     border: 2px solid black;
     display: grid;
     background-color: #FFF159;
+    height: 100px;
 }
 .Barra-nav {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 20% 50% 30%;
     grid-template-rows: 50% 50%;
+    height: 100px;
 }
 .Logo {
     border: 2px solid black;
@@ -21,12 +23,13 @@ img {
     border: 2px solid black;
     display: grid;
     align-content: center;
-    justify-content: center;
+    justify-content: start;
 }
 .Suscripciones {
     border: 2px solid black;
     display: grid;
-    gap: 10px;
+    grid-template-columns: 40% 60%;
+    align-content: center;
 }
 .Codigo-postal {
     border: 2px solid black;
@@ -47,4 +50,48 @@ img {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap: 10px;
+}
+.Inicio-sesion {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.Buscar {
+    width: 500px;
+    height: 35px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.plus {
+    width: 200px;
+    background-color: #FFF159;
+    border: none;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.meli {
+    width: 200px;
+    height: 30px;
+    background-color: #9C1A8D;
+    border: 2px solid #9C1A8D;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: rgba(110, 106, 106, 0.678);
+}
+a:hover {
+    color: black;
+}
+.CP {
+    border: none;
+    background-color: #FFF159;
+}
+.CP:hover {
+    border: 1px solid rgb(202, 197, 197);
+    border-radius: 5px;
 }
