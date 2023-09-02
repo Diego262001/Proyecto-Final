@@ -1,5 +1,5 @@
 header {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: grid;
     background-color: #FFF159;
     height: 100px;
@@ -11,7 +11,7 @@ header {
     height: 100px;
 }
 .Logo {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: grid;
     align-content: center;
     justify-content: center;
@@ -20,41 +20,35 @@ img {
     height: 80px;
 }
 .Barra-buscar {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: grid;
     align-content: center;
     justify-content: start;
 }
 .Suscripciones {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: grid;
     grid-template-columns: 40% 60%;
     align-content: center;
 }
 .Codigo-postal {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: grid;
     align-content: center;
     justify-content: center;
 }
 .Listado {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: grid;
 }
 .Inicio-sesion {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: grid;
 }
 .Categorias {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 10px;
-}
-.Inicio-sesion {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
     gap: 10px;
 }
 .Buscar {
@@ -94,4 +88,236 @@ a:hover {
 .CP:hover {
     border: 1px solid rgb(202, 197, 197);
     border-radius: 5px;
+}
+.Ingresar-sesion {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Ofertas-full {
+    background-color: #FDFFFD;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Ofertas-full:hover {
+    cursor: pointer;
+}
+#Ofertas-full {
+    background-color: #17954A;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    color: #E7E7E7;
+}
+#Ofertas-full:hover {
+    cursor: pointer;
+}
+.rayo {
+   /* border: 2px solid black; */
+   position: relative;
+   right: 5px;
+}
+.Botones {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    background-color: #E7E7E7;
+    height: 300px;
+    align-content: center;
+   
+}
+.Ofertas-dia {
+    background-color: #FDFFFD;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Ofertas-dia:hover {
+    cursor: pointer;
+}
+#Ofertas-dia {
+    background-color: #17954A;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    color: #E7E7E7;
+}
+#Ofertas-dia:hover {
+    cursor: pointer;
+}
+.Audifonos {
+    background-color: #FDFFFD;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Audifonos:hover {
+    cursor: pointer;
+}
+#Audifonos {
+    background-color: #17954A;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    color: #E7E7E7;
+}
+#Audifonos:hover {
+    cursor: pointer;
+}
+.Audifonos-img {
+    /* border: 2px solid black; */
+    position: relative;
+    right: 10px;
+}
+.Mochilas {
+    background-color: #FDFFFD;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Mochilas:hover {
+    cursor: pointer;
+}
+#Mochilas {
+    background-color: #17954A;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    color: #E7E7E7;
+}
+#Mochilas:hover {
+    cursor: pointer;
+}
+.Llegan-en {
+    background-color: #FDFFFD;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Llegan-en:hover {
+    cursor: pointer;
+}
+#Llegan-en {
+    background-color: #17954A;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    color: #E7E7E7;
+}
+#Llegan-en:hover {
+    cursor: pointer;
+}
+.Meses {
+    background-color: #FDFFFD;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Meses:hover {
+    cursor: pointer;
+}
+#Meses {
+    background-color: #17954A;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    color: #E7E7E7;
+}
+#Meses:hover {
+    cursor: pointer;
+}
+.tarjeta {
+    /* border: 2px solid black; */
+    position: relative;
+    right: 10px;
+}
+.Productos {
+    background-color: #FDFFFD;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Productos:hover {
+    cursor: pointer;
+}
+#Productos {
+    background-color: #17954A;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 10px;
+    color: #E7E7E7;
+}
+#Productos:hover {
+    cursor: pointer;
+}
+.trofeo {
+    /* border: 2px solid black; */
+    height: 60px;
+    position: relative;
+    right: 18px;
+}
+.Envio-gratis {
+    background-color: #FDFFFD;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Envio-gratis:hover {
+    cursor: pointer;
+}
+#Envio-gratis {
+    background-color: #17954A;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    color: #E7E7E7;
+}
+#Envio-gratis:hover {
+    cursor: pointer;
+}
+.camion {
+    /* border: 2px solid black; */
+    position: relative;
+    right: 8px;
 }
