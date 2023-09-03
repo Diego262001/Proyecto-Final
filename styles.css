@@ -130,7 +130,6 @@ a:hover {
     background-color: #E7E7E7;
     height: 300px;
     align-content: center;
-   
 }
 .Ofertas-dia {
     background-color: #FDFFFD;
@@ -320,4 +319,43 @@ a:hover {
     /* border: 2px solid black; */
     position: relative;
     right: 8px;
+}
+#img-full-week {
+    /* border: 2px solid black; */
+    display: grid;
+    
+}
+.full-week {
+    width: 1350px;
+    height: 150px;
+}
+#img-full-week:hover {
+    cursor: pointer;
+}
+.contenedor-1 {
+    border: 2px solid black;
+    display: block;
+    padding: 8px 10px;
+    text-align: center;
+    height: 600px;
+    background-color: #E7E7E7;
+}
+.div-1 {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black;  */
+    height: 250px;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+.titulo {
+    color: black;
+    font-style: normal;
+    font-size: 12px;
+}
+.img-celulares {
+    height: 220px;
+    width: 400px;
+    border-radius: 8px;
 }
