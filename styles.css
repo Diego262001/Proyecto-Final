@@ -326,14 +326,14 @@ a:hover {
     
 }
 .full-week {
-    width: 1350px;
+    width: 1333px;
     height: 150px;
 }
 #img-full-week:hover {
     cursor: pointer;
 }
 .contenedor-1 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: block;
     padding: 8px 10px;
     text-align: center;
@@ -358,4 +358,15 @@ a:hover {
     height: 220px;
     width: 400px;
     border-radius: 8px;
+}
+.contenedor-2 {
+    /* border: 2px solid black;  */
+    display: block;
+    padding: 8px 10px;
+    text-align: center;
+    height: 900px;
+    background-color: #E7E7E7;
+}
+.img-celulares:hover {
+    border: 1px solid grey;
 }
